@@ -1,0 +1,60 @@
+.btn:focus, .btn:active, .btn:hover, .btn {
+    outline: none !important;
+    background-color: #543729;
+    border: #543729 1px solid;
+}
+
+.form-control, .btn {
+    border-radius: 0;
+    border: #543729 1px solid;
+}
+
+.form-control {
+    color: #543729;
+}
+
+.form-control:focus {
+    box-shadow: white 0 0 0;
+    border: #543729 1px solid;
+}
+
+#results01 td {
+    vertical-align: middle;
+}
+
+caption {
+    text-align: center;
+    color: #543729;
+}
+
+.jumbotron {
+    background-color: orange;
+}
+
+.jumbotron h1 {
+    /*font-size: 100px;*/
+    font-weight: bold;
+    letter-spacing: -0.04em;
+}
+
+.jumbotron h2 {
+    font-weight: bold;
+    letter-spacing: -0.04em;
+}
+
+.content {
+    padding-bottom: 130px;
+}
+
+body {
+    color: #543729;
+}
+
+::selection {
+    background: #543729; /* WebKit/Blink Browsers */
+    color: white;
+}
+::-moz-selection {
+    background: #543729; /* Gecko Browsers */
+    color: white;
+}
