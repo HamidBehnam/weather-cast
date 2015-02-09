@@ -81,8 +81,10 @@
   	<div class="container">
   		<p><small>Desinged and Implemented By <a href="http://www.linkedin.com/in/hamidbehnampro"><strong>Hamid Ahmadi Behnam</strong></a></small></p>
   		<div class="mlogo">
-  			<img src="mlogo.png" alt="Logo" width="60"
-  				height="17.63478260869565" />
+  			<a href="http://hamidev.com/" target="_blank">
+  				<img src="mlogo.png" alt="Logo" width="60"
+  					height="17.63478260869565" />
+  			</a>
   		</div>
   	</div>
   </footer>
