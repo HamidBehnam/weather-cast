@@ -32,7 +32,7 @@ public class Weather extends HttpServlet {
 
             HttpResponse<JsonNode> data = Unirest.get("https://george-vustrey-weather.p.mashape.com/api.php")
                     .queryString("location", location)
-                    .header("X-Mashape-Key", "ndIjR3irjhmshVOidQWejmsrEri6p1xVtpcjsnhi0V0RDBleIM")
+                    .header("X-Mashape-Key", "hU88zUvgKNmshIWnxYpekb4Obj2jp1wKcbDjsnONWsDU3zCFT5")
                     .header("Accept", "application/json")
                     .asJson();
 
