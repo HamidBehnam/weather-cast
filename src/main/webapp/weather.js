@@ -23,7 +23,7 @@
         this.location = "San Francisco";
         var refThis = this;
         this.getData = function (pointer) {
-            $http({url: "weather", method: "get", params: {location: this.location}, cache: false}).success(function (data) {
+            $http.get("weather", {params: {location: this.location}, cache: false}).success(function (data) {
                 pointer.weathers = data;
                 pointer.location = refThis.location;
             });
