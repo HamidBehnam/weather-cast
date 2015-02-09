@@ -77,11 +77,17 @@ body {
 	color: #543729;
 }
 
-.footer .mlogo {
-	padding: 15px;
+.footer-text {
+	margin-bottom: 0px;
 }
 
-.footer img {
+.footer-content-holder {
+	width: 60px;
+	height: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 60px;
+	text-align: center;
 	opacity: 0.5;
 	transition: opacity ease-in-out 1s 0s, transform ease-in-out 1s 0s;
 	-webkit-transition: opacity ease-in-out 1s 0s, -webkit-transform ease-in-out 1s 0s;
@@ -90,7 +96,7 @@ body {
 	-ms-transition: opacity ease-in-out 1s 0s, -ms-transform ease-in-out 1s 0s;	
 }
 
-.footer img:HOVER {
+.footer-content-holder:HOVER {
 	opacity: 1;
 	transform: rotate(360deg);
 	-webkit-transform: rotate(360deg);
@@ -102,4 +108,10 @@ body {
 	-moz-transform-origin: 50% 50%;
 	-o-transform-origin: 50% 50%;
 	-ms-transform-origin: 50% 50%;
+}
+
+.footer-content {
+	vertical-align: middle;
+	line-height: normal;
+	display: inline-block;
 }

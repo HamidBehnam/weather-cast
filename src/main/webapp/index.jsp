@@ -5,6 +5,7 @@
   Time: 3:36 PM
   To change this template use File | Settings | File Templates.
 --%>
+<!DOCTYPE html>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html ng-app="weather">
   <head>
@@ -79,12 +80,16 @@
   </div>
   <footer class="footer">
   	<div class="container">
-  		<p><small>Desinged and Implemented By <a href="http://www.linkedin.com/in/hamidbehnampro"><strong>Hamid Ahmadi Behnam</strong></a></small></p>
+  		<p class="footer-text"><small>Desinged and Implemented By <a href="http://www.linkedin.com/in/hamidbehnampro"><strong>Hamid Ahmadi Behnam</strong></a></small></p>
+  		<a href="http://www.hamidev.com/" target="_blank">
+  			<div class="footer-content-holder">
+  				<div class="footer-content">
+  					<img src="mlogo.png" alt="Logo" width="60"
+  						height="17.63478260869565" />
+  				</div>
+  			</div>
+  		</a>
   		<div class="mlogo">
-  			<a href="http://hamidev.com/" target="_blank">
-  				<img src="mlogo.png" alt="Logo" width="60"
-  					height="17.63478260869565" />
-  			</a>
   		</div>
   	</div>
   </footer>
