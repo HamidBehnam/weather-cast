@@ -3,7 +3,7 @@
  */
 
 (function () {
-    var weatherModuleReference = angular.module("weather", ["angular-loading-bar", "ngAnimate"]);
+    var weatherModuleReference = angular.module("weather", ["angular-loading-bar", "ngAnimate", "filters"]);
 
     weatherModuleReference.config(['cfpLoadingBarProvider', function(cfpLoadingBarProvider) {
         cfpLoadingBarProvider.includeSpinner = false;
@@ -23,7 +23,7 @@
         this.location = "San Francisco";
         var refThis = this;
         this.getData = function (pointer) {
-            $http.get("weather", {params: {location: this.location}}).success(function (data) {
+            $http({url: "weather", method: "get", params: {location: this.location}, cache: false}).success(function (data) {
                 pointer.weathers = data;
                 pointer.location = refThis.location;
             });

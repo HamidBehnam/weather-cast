@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html ng-app="weather">
   <head>
-    <title>Weather Cast</title>
+    <title>WeatherCast</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.10/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.10/angular-animate.js"></script>
@@ -16,6 +16,7 @@
     <script src="Skycons/skycons.js"></script>
     <script src="angular-loading-bar-master/src/loading-bar.js"></script>
     <script src="weather.js"></script>
+    <script src="filters.js"></script>
     <script src="loader.js"></script>
     <link rel="stylesheet" href="bootstrap-3.3.2-dist/css/bootstrap.css">
     <link rel="stylesheet" href="angular-loading-bar-master/src/loading-bar.css">
@@ -28,7 +29,7 @@
     <div class="container">
       <div class="row content">
         <div class="col-sm-5 col-sm-offset-2">
-          <h1>Weather Cast</h1>
+          <h1>WeatherCast</h1>
           <h2>Ultimate Weather Forecasts</h2>
         </div>
         <div class="col-sm-5">
@@ -49,11 +50,11 @@
       </div>
     </div>
   </div>
-  <div class="container">
-    <section>
+  <div id="wrap" class="container">
+    <section id="main">
       <div class="table-responsive">
         <table id="results01" class="table table-hover table-striped">
-          <caption><h3>Weather Forecasts in {{weatherCTL.location}}</h3></caption>
+          <caption><h3>Weather Forecasts in <strong>{{weatherCTL.location | capitalize}}</strong></h3></caption>
         <tr>
           <th>Day Of Week</th>
           <th>Low</th>
@@ -76,5 +77,14 @@
       </div>
     </section>
   </div>
+  <footer class="footer">
+  	<div class="container">
+  		<p><small>Desinged and Implemented By <a href="http://www.linkedin.com/in/hamidbehnampro"><strong>Hamid Ahmadi Behnam</strong></a></small></p>
+  		<div class="mlogo">
+  			<img src="mlogo.png" alt="Logo" width="60"
+  				height="17.63478260869565" />
+  		</div>
+  	</div>
+  </footer>
   </body>
 </html>
