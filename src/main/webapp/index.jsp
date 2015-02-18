@@ -29,11 +29,11 @@
   <div class="jumbotron">
     <div class="container">
       <div class="row content">
-        <div class="col-sm-5 col-sm-offset-2">
+        <div class="col-sm-5 col-sm-offset-2" id="titleHolder">
           <h1>WeatherCast</h1>
           <h2>Ultimate Weather Forecasts</h2>
         </div>
-        <div class="col-sm-5">
+        <div class="col-sm-5" id="weatherLogoHolder">
           <img src="WeatherLogo.png" alt="Logo" width="225" height="200">
         </div>
       </div>
@@ -90,6 +90,10 @@
   			</div>
   		</a>
   		<div class="mlogo">
+  		</div>
+  		<div>
+  			<a href="https://chrome.google.com/webstore/detail/weathercast/mgenhigolcnamgmohgeedmcenfimckin"><img src="ChromeWebStore_BadgeWBorder_v2_206x58.png" alt="Chrome WebStore"></a>
+  			<a href="https://play.google.com/store/apps/details?id=com.your.company.WeatherCast"><img src="en_app_rgb_wo_60.png" alt="Google Play Store"></a>
   		</div>
   	</div>
   </footer>

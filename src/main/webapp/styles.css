@@ -27,9 +27,30 @@ caption {
     color: #543729;
 }
 
+.content {
+    padding-bottom: 130px;
+}
+
 @MEDIA (max-width: 1000px) {
 	caption {
 	    text-align: left;
+	}
+}
+
+@MEDIA (max-width: 950px) {
+	#weatherLogoHolder {
+	    display: none;
+	}
+	
+	#titleHolder {
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		width: 80%;
+	}
+	
+	.content {
+    	padding-bottom: 30px;
 	}
 }
 
@@ -46,10 +67,6 @@ caption {
 .jumbotron h2 {
     font-weight: bold;
     letter-spacing: -0.04em;
-}
-
-.content {
-    padding-bottom: 130px;
 }
 
 body {
