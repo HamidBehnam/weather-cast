@@ -80,20 +80,20 @@
   </div>
   <footer class="footer">
   	<div class="container">
-  		<p class="footer-text"><small>Desinged and Implemented By <a href="http://www.linkedin.com/in/hamidbehnampro"><strong>Hamid Ahmadi Behnam</strong></a></small></p>
-  		<a href="http://www.hamidev.com/" target="_blank">
+  		<p class="footer-text"><small>Designed and Implemented By <a href="http://www.linkedin.com/in/hamidbehnampro"><strong>Hamid Ahmadi Behnam</strong></a></small></p>
   			<div class="footer-content-holder">
   				<div class="footer-content">
-  					<img src="mlogo.png" alt="Logo" width="60"
-  						height="17.63478260869565" />
+			  		<a href="http://www.hamidev.com/" target="_blank">
+  						<img src="mlogo.png" alt="Logo" width="60"
+  							height="17.63478260869565" />
+  					</a>
   				</div>
   			</div>
-  		</a>
   		<div class="mlogo">
   		</div>
   		<div>
-  			<a href="https://chrome.google.com/webstore/detail/weathercast/mgenhigolcnamgmohgeedmcenfimckin"><img src="ChromeWebStore_BadgeWBorder_v2_206x58.png" alt="Chrome WebStore"></a>
-  			<a href="https://play.google.com/store/apps/details?id=com.your.company.WeatherCast"><img src="en_app_rgb_wo_60.png" alt="Google Play Store"></a>
+  			<a href="https://chrome.google.com/webstore/detail/weathercast/mgenhigolcnamgmohgeedmcenfimckin" target="_blank"><img src="ChromeWebStore_BadgeWBorder_v2_206x58.png" alt="Chrome WebStore"></a>
+  			<a href="https://play.google.com/store/apps/details?id=com.your.company.WeatherCast" target="_blank"><img src="en_app_rgb_wo_60.png" alt="Google Play Store"></a>
   		</div>
   	</div>
   </footer>
